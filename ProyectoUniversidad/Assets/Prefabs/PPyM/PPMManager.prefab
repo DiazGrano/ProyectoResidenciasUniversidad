@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1687968652411862956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8498411716809954040}
+  - component: {fileID: 9083915592123412715}
+  m_Layer: 0
+  m_Name: PPMManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8498411716809954040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687968652411862956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9083915592123412715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687968652411862956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 928363d8feba80344b4fe09a2cc05e30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PPyMTipoResultado: 0
+  nombreEscena: PulgadaPieYMilla
+  PPyMEstadoJuego: 0
+  sliderPotencia: {fileID: 0}
+  cabezaTorreta: {fileID: 0}
+  proyectil: {fileID: 7187544493155842844, guid: ec71d1eeff600564ab53dcaab5d75458,
+    type: 3}
+  puntoDeDisparo: {fileID: 0}
+  distanciaRecorridaText: {fileID: 0}
+  medidaDistanciaRecorridaText: {fileID: 0}
+  medidaConvertirDistanciaText: {fileID: 0}
+  gridRespuestas: {fileID: 0}
+  respuestaGenerica: {fileID: 7620131498878071266, guid: 600423417e03e3e41ae1c34cc4178fbd,
+    type: 3}
+  cantidadDecimales: 4
+  cantidadRespuestasAGenerar: 4
+  puntosCorrecta: 5
+  puntosIncorrecta: -3
+  campoMejorPuntuacion: {fileID: 0}
+  campoPuntuacionActual: {fileID: 0}
+  mejorPuntacion: 0
+  puntuacionActual: 0
+  puntoReferenciaCamara: {fileID: 0}
+  velocidadPotencia: 0.01
+  velocidadApuntar: 0.01
+  textoInstrucciones: "\xA1Apunta, potencia y dispara!\nCuando el proyectil toque
+    tierra, transforma la distancia recorrida por el proyectil (ya sea en cent\xEDmetros,
+    metros o kil\xF3metros), a la unidad inglesa que corresponda (pulgadas, pies o
+    millas), y selecciona la respuesta correcta.\n\t1 metro = 39.3701 pulgadas\n\t1
+    metro = 3.28084 pies\n\t1 milla = 1609.34 metros\n\t1 kil\xF3metro = 1000 metros\n\t1
+    metro = 100 cent\xEDmetros"
